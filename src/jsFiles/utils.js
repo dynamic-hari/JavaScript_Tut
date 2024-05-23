@@ -1,5 +1,14 @@
-export function greet(name) {
-  return `Hello, ${name}`;
+export const message = "How you doing?";
+
+// const myInterval = setInterval(increment, 1000);
+
+let item = 0;
+
+export function increment() {
+  item++;
+  document.getElementById("header").innerHTML = item;
 }
 
-export const message = "How you doing?";
+export const stopFunction = () => {
+  clearInterval(myInterval);
+};

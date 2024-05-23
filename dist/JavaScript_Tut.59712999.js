@@ -142,14 +142,14 @@
       this[globalName] = mainExports;
     }
   }
-})({"23E3a":[function(require,module,exports) {
+})({"1v14V":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "16df5292ac9dc4ba";
+module.bundle.HMR_BUNDLE_ID = "7055c94b59712999";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -583,58 +583,8 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"aR1JP":[function(require,module,exports) {
-var _utils = require("./jsFiles/utils");
-console.log((0, _utils.message));
-document.getElementById("btn").addEventListener("click", (0, _utils.stopFunction));
+},{}],"4M6V8":[function(require,module,exports) {
 
-},{"./jsFiles/utils":"dvE3L"}],"dvE3L":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "message", ()=>message);
-parcelHelpers.export(exports, "increment", ()=>increment);
-parcelHelpers.export(exports, "stopFunction", ()=>stopFunction);
-const message = "How you doing?";
-// const myInterval = setInterval(increment, 1000);
-let item = 0;
-function increment() {
-    item++;
-    document.getElementById("header").innerHTML = item;
-}
-const stopFunction = ()=>{
-    clearInterval(myInterval);
-};
+},{}]},["1v14V","4M6V8"], "4M6V8", "parcelRequirebaba")
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}]},["23E3a","aR1JP"], "aR1JP", "parcelRequirebaba")
-
-//# sourceMappingURL=index.ac9dc4ba.js.map
+//# sourceMappingURL=JavaScript_Tut.59712999.js.map
